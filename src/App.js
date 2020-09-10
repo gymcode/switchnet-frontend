@@ -1,25 +1,29 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { Fragment } from "react";
+import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
+import "./styles/main.css";
+
+//navigation
+
+// pages
+import HomeScreen from "./pages/Home/home";
+import AboutScreen from "./pages/About/about";
+import ServiceScreen from './pages/Services/services'
+import StockScreen from './pages/Stock/stock'
+import ContactSceeen from './pages/Contact/contact'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          lets get started with switchnet solutions
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Fragment>
+        <Switch>
+          <Route path="/" exact component={HomeScreen} />
+          <Route path="/about" component={AboutScreen} />
+          <Route path="/services" component={ServiceScreen} />
+          <Route path="/stock" component={StockScreen} />
+          <Route path="/contact" component={ContactSceeen} />
+        </Switch>
+      </Fragment>
+    </Router>
   );
 }
 
