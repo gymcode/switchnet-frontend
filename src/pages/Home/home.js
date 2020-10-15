@@ -2,22 +2,16 @@ import React, { Fragment, useEffect, useState, useRef } from "react";
 import gsap from 'gsap'
 import "../../styles/main.css";
 
-// navigation
-import Header from "../../navigation/header"
+// sub home components 
 import Banner from "../../components/banner"
 import Cases from "../../components/cases";
 import Intro from "../../components/introOverlay";
+import Header from "../../navigation/header";
 
-const Home = () => {
-  
-  const vh = window.innerHeight * .01; 
-  document.documentElement.style.setProperty('--vh', `${vh}px`)
+// gsap timeline
+const tl = gsap.timeline(); 
 
-  useEffect(() => {  
-
-    // gsap timeline
-    const tl = gsap.timeline(); 
-
+const HomeAnimation = (completeAnimation)=>{
     tl.from(".main h2 ", 1.8, {  
       opacity: 0,
       y: 100, 
@@ -46,15 +40,27 @@ const Home = () => {
       delay: -2, 
       stagger: {
         amount: 0.4
-      }
+      }, 
+      onComplete: completeAnimation
     });
+}
 
+const Home = () => {
+
+  const [animationComplete, setAnimateComplete] = useState(false)
+  
+  const completeAnimation = ()=>{
+    setAnimateComplete(true)    
+  }
+
+  useEffect(() => {  
+      HomeAnimation(completeAnimation)
   }, []);
 
   return (
     <Fragment>   
-        <Intro/>   
-        <Header/>        
+        { animationComplete === false ?  <Intro/> : "" }  
+        <Header/>
         <Banner/>
         <Cases/>
     </Fragment>
