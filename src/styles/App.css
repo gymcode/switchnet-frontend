@@ -24,8 +24,8 @@
 
 .main{
   background-color: #fff;
-  height: 41.5vh;
-  height: calc(var(--vh, 1vh) * 41.5);
+  height: 40vh;
+  height: calc(var(--vh, 1vh) * 40);
 }
 
 .arrow_style{
@@ -60,7 +60,7 @@
 
 .casesDiv{
   background-color: black;
-  height: 50vh;
+  height: 50.4vh;
   width: 33.3333vw;
   overflow: hidden;
   position: absoulte; 
@@ -84,7 +84,7 @@
 }
 
 .bottom{
-  height: 50vh;
+  height: 50.5vh;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -120,11 +120,11 @@
 }
 
 .overlay-top:nth-child(2){
-  left: 33.33%;  
+  left: 33.33vw;  
 }
 
 .overlay-top:nth-child(3){
-  left: 66.322%;
+  left: 66.333vw;
 }
 
 

@@ -7,6 +7,7 @@ import Banner from "../../components/banner"
 import Cases from "../../components/cases";
 import Intro from "../../components/introOverlay";
 import Header from "../../navigation/header";
+import MainSection from "../../components/MainSection";
 
 // gsap timeline
 const tl = gsap.timeline(); 
@@ -58,11 +59,22 @@ const Home = () => {
   }, []);
 
   return (
-    <Fragment>   
-        { animationComplete === false ?  <Intro/> : "" }  
-        <Header/>
-        <Banner/>
-        <Cases/>
+    <Fragment>  
+        {/* header  */}
+        <div >
+          { animationComplete === false ?  <Intro/> : "" }  
+          <Header/>
+          <Banner/>
+          <Cases/>
+        </div>
+
+        {/* body section */}
+        {
+          animationComplete === false ?
+          " "
+          :
+          <MainSection/>
+        }
     </Fragment>
   );
 };
