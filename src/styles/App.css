@@ -61,7 +61,7 @@
 .casesDiv{
   background-color: black;
   height: 50.4vh;
-  width: 33.3333vw;
+  /* width: 33.3333vw; */
   overflow: hidden;
   position: absoulte; 
   transition: 0.4s cubic-bezier(0.6, -0.05, 0.1, 0.99);

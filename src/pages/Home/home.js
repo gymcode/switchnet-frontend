@@ -62,20 +62,20 @@ const Home = () => {
     <Fragment>  
         {/* header  */}
         <div >
-          {/* { animationComplete === false ?  <Intro/> : "" }   */}
+          { animationComplete === false ?  <Intro/> : "" }  
           <Header/>
           <Banner/>
           <Cases/>
         </div>
 
         {/* body section */}
-        <MainSection/>
-        {/* {
+        {/* <MainSection/> */}
+        {
           animationComplete === false ?
           " "
           :
           <MainSection/>
-        } */}
+        }
     </Fragment>
   );
 };
