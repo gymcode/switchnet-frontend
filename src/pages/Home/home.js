@@ -69,12 +69,13 @@ const Home = () => {
         </div>
 
         {/* body section */}
-        {
+        <MainSection/>
+        {/* {
           animationComplete === false ?
           " "
           :
           <MainSection/>
-        }
+        } */}
     </Fragment>
   );
 };

@@ -2,14 +2,49 @@ import React, {Fragment, useMemo} from 'react'
 import '../styles/App.css'
 import '../styles/main.css'
 
+const items = [
+    {
+        id: 1, 
+        name: "DAsdasdasd", 
+        price: "Ghc 99", 
+        image: require('../assets/brand.jpg')
+    }, 
+    {
+        id: 2, 
+        name: "DAsdasdasd", 
+        price: "Ghc 99", 
+        image: require('../assets/backup.jpg')
+    }, 
+    {
+        id: 3, 
+        name: "DAsdasdasd", 
+        price: "Ghc 99", 
+        image: require('../assets/image2.jpg')
+    },
+    {
+        id: 4, 
+        name: "DAsdasdasd", 
+        price: "Ghc 99", 
+        image: require('../assets/brand.jpg')
+    }, 
+    {
+        id: 5, 
+        name: "DAsdasdasd", 
+        price: "Ghc 99", 
+        image: require('../assets/backup.jpg')
+    }, 
+    {
+        id: 6, 
+        name: "DAsdasdasd", 
+        price: "Ghc 99", 
+        image: require('../assets/image2.jpg')
+    }
+]
+
 const MainSection  = ()=>{
     return (
         <Fragment>
-            <div className={'px-20 py-12'}>
-                {/* body section  */}
-
-                {/* left section  */}
-
+            <div className={'px-24 py-12'}>
                 {/* pc section */}
                 <div className={'hidden md:block lg:block xl:block rounded'}>
                     <div className={"mx-24 py-20 grid grid-cols-12 gap-4"}>
@@ -17,7 +52,31 @@ const MainSection  = ()=>{
                         <div className={"horiLine col-span-1 ml-10"}/>
                         <p className={'col-span-8 text-xs leading-loose'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                     </div>
-                    <h2 className={'font_default text-4xl ml-16 pt-6 capitalize'}>items in stock</h2>
+                    <div className={"veriLine"}/>
+                    <div className={"mx-8 py-16"}>
+                        <h2 className={'font_default text-4xl capitalize'}>items in stock</h2>
+                        <div className={"flex flex-wrap py-10"}>
+                            {
+                                items.map((data)=>(
+                                    <>
+                                        <div className={"width-sub mx-6"}>
+                                            <div className={"items-color flex items-end justify-center"}>
+                                                <img src={data.image} className={"object-cover w-2/3 rounded"}/>
+                                            </div>
+                                            <div className={"flex justify-between my-6 font-bold font_default"}>
+                                                <div>{data.name}</div>
+                                                <div>{data.price}</div>
+                                            </div>
+                                        </div>
+                                    </>
+                                ))
+                            }
+                        </div>
+                        {/* btn  */}
+                        <div className={''}>
+                            See all items
+                        </div>
+                    </div>
                 </div>
 
                 {/* mobile section */}

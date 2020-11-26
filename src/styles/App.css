@@ -129,8 +129,30 @@
 
 .horiLine{
   height: 100%;
-  background-color: #77cebb;
+  background-color: #e8eaee;
   width: 1px;
+}
+
+.veriLine{
+  height: 1px;
+  background-color: #c3f7eb;
+  width: 100%;
+}
+
+.items-color{
+  background-color: #e8eaee;
+  height: 16rem;
+}
+
+.width-sub{
+  width: 29%;
+}
+
+.image{
+  background-image: url('../assets/Untitled.svg');
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
 
 
