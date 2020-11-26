@@ -62,7 +62,7 @@ const Home = () => {
     <Fragment>  
         {/* header  */}
         <div >
-          { animationComplete === false ?  <Intro/> : "" }  
+          {/* { animationComplete === false ?  <Intro/> : "" }   */}
           <Header/>
           <Banner/>
           <Cases/>

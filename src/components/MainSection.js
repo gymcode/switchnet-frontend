@@ -5,14 +5,14 @@ import '../styles/main.css'
 const MainSection  = ()=>{
     return (
         <Fragment>
-            <div className={'p-20'}>
+            <div className={'px-20 py-12'}>
                 {/* body section  */}
 
                 {/* left section  */}
 
                 {/* pc section */}
-                <div className={'hidden md:block lg:block xl:block'}>
-                    <h2 className={'font_default text-4xl capitalize'}>Items in stock</h2>
+                <div className={'hidden md:block lg:block xl:block mid_section'}>
+                    <h2 className={'font_default text-4xl ml-12 capitalize'}>new arrivals</h2>
                 </div>
 
                 {/* mobile section */}
