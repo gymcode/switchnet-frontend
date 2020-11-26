@@ -25,19 +25,19 @@ const items = [
         id: 4, 
         name: "DAsdasdasd", 
         price: "Ghc 99", 
-        image: require('../assets/brand.jpg')
+        image: require('../assets/image3.jpg')
     }, 
     {
         id: 5, 
         name: "DAsdasdasd", 
         price: "Ghc 99", 
-        image: require('../assets/backup.jpg')
+        image: require('../assets/image4.jpg')
     }, 
     {
         id: 6, 
         name: "DAsdasdasd", 
         price: "Ghc 99", 
-        image: require('../assets/image2.jpg')
+        image: require('../assets/image1.jpg')
     }
 ]
 
@@ -61,7 +61,7 @@ const MainSection  = ()=>{
                                     <>
                                         <div className={"width-sub mx-6"}>
                                             <div className={"items-color flex items-end justify-center"}>
-                                                <img src={data.image} className={"object-cover w-2/3 rounded"}/>
+                                                <img src={data.image} className={"object-cover w-2/3 h-56 rounded"}/>
                                             </div>
                                             <div className={"flex justify-between my-6 font-bold font_default"}>
                                                 <div>{data.name}</div>

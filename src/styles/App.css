@@ -60,7 +60,8 @@
 
 .casesDiv{
   background-color: black;
-  height: 50.4vh;
+  height: 51.6vh;
+  /* height: 50.4vh; */
   /* width: 33.3333vw; */
   overflow: hidden;
   position: absoulte; 
