@@ -127,9 +127,10 @@
   left: 66.333vw;
 }
 
-.mid_section{
-  background-color: #e9f7f4e5;
-  height: 20rem;
+.horiLine{
+  height: 100%;
+  background-color: #77cebb;
+  width: 1px;
 }
 
 
