@@ -61,7 +61,7 @@ const MainSection  = ()=>{
                                     <>
                                         <div className={"width-sub mx-6"}>
                                             <div className={"items-color flex items-end justify-center"}>
-                                                <img src={data.image} className={"object-cover w-2/3 h-56 rounded"}/>
+                                                <img src={data.image} className={"object-cover w-2/3 h-40 rounded"}/>
                                             </div>
                                             <div className={"flex justify-between my-6 font-bold font_default"}>
                                                 <div>{data.name}</div>

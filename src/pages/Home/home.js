@@ -61,7 +61,7 @@ const Home = () => {
   return (
     <Fragment>  
         {/* header  */}
-        <div >
+        <div className={"h-screen"}>
           { animationComplete === false ?  <Intro/> : "" }  
           <Header/>
           <Banner/>

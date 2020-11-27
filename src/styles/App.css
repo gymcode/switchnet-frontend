@@ -23,8 +23,8 @@
 /* ************** banner js *************** */
 
 .main{
-  background-color: #fff;
-  height: 40vh;
+  background-color: rgb(199, 10, 10);
+  /* height: 40vh; */
   height: calc(var(--vh, 1vh) * 40);
 }
 
