@@ -74,7 +74,9 @@ const MainSection  = ()=>{
                         </div>
                         {/* btn  */}
                         <div className={'capitalize text-xs font-bold flex justify-center items-center'}>
-                            <div className={'w-40 h-12 border flex justify-center items-center'}>see all items</div>
+                            <a href="">
+                                <div className={'hover_link w-40 h-12 border flex justify-center items-center'} style={{borderWidth: 2, borderColor: "#000",}}>see all items</div>
+                            </a>
                         </div>
                         <div className={"veriLine my-16"}/>
                     </div>

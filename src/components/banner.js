@@ -21,7 +21,7 @@ const Banner = ({title})=>{
                             </div>
                             <div className="font_default py-2 font-semibold text-md sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl ">
                                 <a href="">
-                                    More about us <BsArrowRightShort className="about_link" size={40} style={{borderRadius: "50px", borderWidth: 2, borderColor: "#000",}}/>
+                                    More about us <BsArrowRightShort className="hover_link" size={40} style={{borderRadius: "50px", borderWidth: 2, borderColor: "#000",}}/>
                                 </a>
                             </div>
                         </h2>

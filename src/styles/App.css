@@ -36,7 +36,7 @@
   border-radius: 50px;
 }
 
-.about_link:hover{
+.hover_link:hover{
   transition: 0.4s ease-in-out;
   color: #fff;
   border-color: #fff;
