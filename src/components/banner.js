@@ -9,7 +9,7 @@ const Banner = ({title})=>{
                 <div className="p-5 sm:p-6 md:p-6 lg:p-8 xl:p-8 md:px-32 lg:px-32 xl:px-32 ">
                     <div>
                         <h2>
-                            <div className="py-6 sm:py-0 md:py-0 lg:py-0 xl:py-1 z-10">
+                            <div className="py-6 md:py-1 lg:py-1 xl:py-1 z-10">
                                 <div>
                                     <span className="font_default font-mix text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-extrabold">
                                         Dreams about the <span className="color_default"> Future</span> are

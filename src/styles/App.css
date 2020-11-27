@@ -23,9 +23,13 @@
 /* ************** banner js *************** */
 
 .main{
-  background-color: rgb(199, 10, 10);
-  /* height: 40vh; */
-  height: calc(var(--vh, 1vh) * 40);
+  background-color: #fff;
+  height: 40vh;
+  /* height: calc(var(--vh, 1vh) * 40); */
+}
+
+.nav{
+  height: 10vh;
 }
 
 .arrow_style{
@@ -60,7 +64,7 @@
 
 .casesDiv{
   background-color: black;
-  height: 51.6vh;
+  height: 50vh;
   /* height: 50.4vh; */
   /* width: 33.3333vw; */
   overflow: hidden;
@@ -85,7 +89,7 @@
 }
 
 .bottom{
-  height: 50.5vh;
+  height: 50vh;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -121,11 +125,11 @@
 }
 
 .overlay-top:nth-child(2){
-  left: 33.33vw;  
+  left: 33.333%;  
 }
 
 .overlay-top:nth-child(3){
-  left: 66.333vw;
+  left: 66.333%;
 }
 
 .horiLine{

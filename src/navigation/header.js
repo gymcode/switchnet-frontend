@@ -5,7 +5,7 @@ import '../styles/main.css'
 const Header = ()=>{
     return(
         <Fragment>
-            <div className="w-full z-4">
+            <div className="w-full z-4 nav">
                 <div className="p-3 md:p-3 lg:p-3 xl:p-3 md:px-20 lg:px-32 xl:px-32 sm:pt-2 md:pt-2 lg:pt-2 xl:pt-2 ">
                     <div className="flex justify-between items-center">
                         <div className="logo">

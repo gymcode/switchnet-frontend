@@ -50,7 +50,7 @@ const MainSection  = ()=>{
                     <div className={"mx-24 py-20 grid grid-cols-12 gap-4"}>
                         <h2 className={"col-span-3 font_default text-4xl ml-16 capitalize font-bold"}>Gadget 4 ur budget</h2>
                         <div className={"horiLine col-span-1 ml-10"}/>
-                        <p className={'col-span-8 text-xs leading-loose'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        <p className={'col-span-8 text-sm leading-loose'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                     </div>
                     <div className={"veriLine"}/>
                     <div className={"mx-8 py-16"}>
@@ -74,7 +74,7 @@ const MainSection  = ()=>{
                         </div>
                         {/* btn  */}
                         <div className={'capitalize text-xs font-bold flex justify-center items-center'}>
-                            <div className={'w-40 h-12 border flex justify-center items-center'}>see all items</div>
+                            <div className={'w-44 h-14 border flex justify-center items-center'}>see all items</div>
                         </div>
                         <div className={"veriLine my-16"}/>
                     </div>
