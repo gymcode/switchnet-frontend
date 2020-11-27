@@ -74,7 +74,7 @@ const MainSection  = ()=>{
                         </div>
                         {/* btn  */}
                         <div className={'capitalize text-xs font-bold flex justify-center items-center'}>
-                            <div className={'w-44 h-14 border flex justify-center items-center'}>see all items</div>
+                            <div className={'w-40 h-12 border flex justify-center items-center'}>see all items</div>
                         </div>
                         <div className={"veriLine my-16"}/>
                     </div>
