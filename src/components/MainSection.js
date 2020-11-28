@@ -86,14 +86,14 @@ const MainSection  = ()=>{
                 <div className={'services mb-64 w-full relative hidden md:block lg:block xl:block'}>   
                     lsfnslflsdkfsdflsdflnsdlnfsdf;kdnfvdbf;vbdafkv djfbk kzbv vcz zc v k xc xf  z zck fl,sndfjsbdf j
                     <div className={"sub-service w-full flex px-40 "}>
-                        <div className={"bg-white mx-6 w-1/2 shadow-xl"} style={{borderBottomLeftRadius: 30}}>
-                            sadasdnkdsdasdasda
+                        <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderBottomLeftRadius: 30}}>
+                            Networking
                         </div>
-                        <div className={"bg-white mx-6 w-1/2 shadow-xl"}>
-                            dasdasdadads
+                        <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
+                            Accessories Repair
                         </div>
-                        <div className={"bg-white mx-6 w-1/2 shadow-xl"}>
-                            dasdasdasdas
+                        <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
+                            Tech Accessories
                         </div>
                     </div>
                 </div>
