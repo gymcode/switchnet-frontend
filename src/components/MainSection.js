@@ -44,41 +44,49 @@ const items = [
 const MainSection  = ()=>{
     return (
         <Fragment>
-            <div className={'px-24 py-12'}>
+            <div>
                 {/* pc section */}
-                <div className={'hidden md:block lg:block xl:block rounded'}>
-                    <div className={"mx-24 py-20 grid grid-cols-12 gap-4"}>
-                        <h2 className={"col-span-3 font_default text-4xl ml-16 capitalize font-bold"}>Gadget 4 ur budget</h2>
-                        <div className={"horiLine col-span-1 ml-10"}/>
-                        <p className={'col-span-8 text-sm leading-loose'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                <div className={'px-24 py-12'}>
+                    <div className={'hidden md:block lg:block xl:block rounded'}>
+                        <div className={"mx-24 py-20 grid grid-cols-12 gap-4"}>
+                            <h2 className={"col-span-3 font_default text-4xl ml-16 capitalize font-bold"}>Gadget 4 ur budget</h2>
+                            <div className={"horiLine col-span-1 ml-10"}/>
+                            <p className={'col-span-8 text-sm leading-loose'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                        <div className={"veriLine"}/>
+                        <div className={"mx-8 py-16"}>
+                            <h2 className={'font_default text-4xl capitalize'}>items in stock</h2>
+                            <div className={"flex flex-wrap py-10"}>
+                                {
+                                    items.map((data)=>(
+                                        <>
+                                            <div className={"width-sub mx-6"}>
+                                                <div className={"items-color flex items-end justify-center"}>
+                                                    <img src={data.image} className={"object-cover w-2/3 h-40 rounded"}/>
+                                                </div>
+                                                <div className={"flex justify-between my-6 font-bold font_default"}>
+                                                    <div>{data.name}</div>
+                                                    <div>{data.price}</div>
+                                                </div>
+                                            </div>
+                                        </>
+                                    ))
+                                }
+                            </div>
+                            {/* btn  */}
+                            <div className={'capitalize text-xs font-bold flex justify-center items-center'}>
+                                <a href="">
+                                    <div className={'hover_link w-40 h-12 border flex justify-center items-center'} style={{borderWidth: 2, borderColor: "#000",}}>see all items</div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div className={"veriLine"}/>
-                    <div className={"mx-8 py-16"}>
-                        <h2 className={'font_default text-4xl capitalize'}>items in stock</h2>
-                        <div className={"flex flex-wrap py-10"}>
-                            {
-                                items.map((data)=>(
-                                    <>
-                                        <div className={"width-sub mx-6"}>
-                                            <div className={"items-color flex items-end justify-center"}>
-                                                <img src={data.image} className={"object-cover w-2/3 h-40 rounded"}/>
-                                            </div>
-                                            <div className={"flex justify-between my-6 font-bold font_default"}>
-                                                <div>{data.name}</div>
-                                                <div>{data.price}</div>
-                                            </div>
-                                        </div>
-                                    </>
-                                ))
-                            }
-                        </div>
-                        {/* btn  */}
-                        <div className={'capitalize text-xs font-bold flex justify-center items-center'}>
-                            <a href="">
-                                <div className={'hover_link w-40 h-12 border flex justify-center items-center'} style={{borderWidth: 2, borderColor: "#000",}}>see all items</div>
-                            </a>
-                        </div>
-                        <div className={"veriLine my-16"}/>
+                </div>
+                {/* service section  */}
+                <div className={'services mb-6 w-full relative'}>   
+                    lsfnslflsdkfsdflsdflnsdlnfsdf;kdnfvdbf;vbdafkv djfbk kzbv vcz zc v k xc xf  z zck fl,sndfjsbdf j
+                    <div className={"sub-service w-full"}>
+                                    dalfsdlfsdfskdfsdflskjflskdfjsldk
                     </div>
                 </div>
 

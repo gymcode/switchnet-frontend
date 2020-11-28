@@ -25,7 +25,6 @@
 .main{
   background-color: #fff;
   height: 40vh;
-  /* height: calc(var(--vh, 1vh) * 40); */
 }
 
 .nav{
@@ -132,6 +131,10 @@
   left: 66.333%;
 }
 
+
+/* ************** MainSection js *************** */
+
+
 .horiLine{
   height: 100%;
   background-color: #e8eaee;
@@ -157,6 +160,22 @@
   background-image: url('../assets/Untitled.svg');
   background-size: cover;
   background-attachment: fixed;
+  
+}
+
+.services{
+  background-image: url("../assets/image1.jpg");
+  background-size: cover;
+  background-color: red;
+  background-attachment: fixed;
+  height: 29rem;
+
+}
+
+.sub-service{
+  position: absolute;
+  top: 14rem;
+  height: 19rem;
   
 }
 
