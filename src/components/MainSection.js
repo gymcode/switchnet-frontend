@@ -84,7 +84,13 @@ const MainSection  = ()=>{
                 </div>
                 {/* service section  */}
                 <div className={'services mb-64 w-full relative hidden md:block lg:block xl:block'}>   
-                    lsfnslflsdkfsdflsdflnsdlnfsdf;kdnfvdbf;vbdafkv djfbk kzbv vcz zc v k xc xf  z zck fl,sndfjsbdf j
+                    <div className={'grid grid-cols-2 px-40 text-white pt-16 flex items-center'}>
+                        <div className={'text-4xl ml-6 capitalize leading-tight'}>
+                           <div>The service</div>
+                           <div>we provide</div>  
+                        </div>
+                        <div className={'text-xs leading-loose'} style={{color: "#d6d9de"}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </div>
+                    </div>
                     <div className={"sub-service w-full flex px-40 "}>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderBottomLeftRadius: 30}}>
                             Networking

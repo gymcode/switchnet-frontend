@@ -166,15 +166,13 @@
 .services{
   background-image: url("../assets/Untitled.svg");
   background-size: cover;
-  background-color: red;
-  background-attachment: fixed;
   height: 29rem;
 
 }
 
 .sub-service{
   position: absolute;
-  top: 14rem;
+  top: 15rem;
   height: 20rem;
   
 }
