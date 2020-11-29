@@ -93,13 +93,22 @@ const MainSection  = ()=>{
                     </div>
                     <div className={"sub-service w-full flex px-40 "}>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderBottomLeftRadius: 30}}>
-                            Networking
+                            <div className={"text-center px-10"}>
+                                <h1>Networking</h1>
+                                <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
+                            </div>
                         </div>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
-                            Accessories Repair
+                            <div className={"text-center px-10"}>
+                                <h1>Repairs</h1>
+                                <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
+                            </div>
                         </div>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
-                            Tech Accessories
+                            <div className={"text-center px-10"}>
+                                <h1>Tech Accessories</h1>
+                                <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
+                            </div>  
                         </div>
                     </div>
                 </div>
