@@ -51,7 +51,7 @@ const MainSection  = ()=>{
                         <div className={"mx-24 py-20 grid grid-cols-12 gap-4"}>
                             <h2 className={"col-span-3 text_default font_default text-4xl ml-16 capitalize font-bold"}>Gadget 4 ur budget</h2>
                             <div className={"horiLine col-span-1 ml-10"}/>
-                            <p className={'col-span-8 text-sm leading-loose'} style={{color: "#626c82"}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                            <p className={'col-span-8 text_size leading-loose'} style={{color: "#626c82"}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                         </div>
                         <div className={"veriLine"}/>
                         <div className={"mx-8 py-16"}>
@@ -95,19 +95,19 @@ const MainSection  = ()=>{
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderBottomLeftRadius: 30}}>
                             <div className={"text-center px-10"}>
                                 <h1>Networking</h1>
-                                <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
+                                <div className={"text_size"}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
                             </div>
                         </div>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
                             <div className={"text-center px-10"}>
                                 <h1>Repairs</h1>
-                                <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
+                                <div className={"text_size"}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
                             </div>
                         </div>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
                             <div className={"text-center px-10"}>
                                 <h1>Tech Accessories</h1>
-                                <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
+                                <div className={"text_size"}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
                             </div>  
                         </div>
                     </div>
