@@ -62,7 +62,7 @@ const MainSection  = ()=>{
                                         <>
                                             <div className={"width-sub mx-6"}>
                                                 <div className={"items-color flex items-end justify-center"}>
-                                                    <img src={data.image} className={"object-cover w-2/3 h-40 rounded"}/>
+                                                    <img src={data.image} className={"object-cover w-2/3 h-40`"}/>
                                                 </div>
                                                 <div className={"flex justify-between my-6 font-bold font_default"}>
                                                     <div>{data.name}</div>
@@ -108,7 +108,7 @@ const MainSection  = ()=>{
                                 >is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
                             </div>
                         </div>
-                        <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
+                        <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderTopRightRadius: 30}}>
                             <div className={"text-center px-10"}>
                                 <h1>Tech Accessories</h1>
                                 <div className={"text_size"} style={{color: "#8d97a2"}}
