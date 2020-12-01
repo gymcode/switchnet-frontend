@@ -49,22 +49,22 @@ const MainSection  = ()=>{
                 <div className={'px-24 py-12'}>
                     <div className={'hidden md:block lg:block xl:block rounded'}>
                         <div className={"mx-20 py-20 grid grid-cols-12 gap-4"}>
-                            <h2 className={"col-span-4 text_default font_default text-4xl capitalize font-bold"}>get a gadget 4 ur budget</h2>
-                            <div className={"horiLine col-span-1"}/>
+                            <h2 className={"col-span-4 text_default font_default text-4xl capitalize leading-tight font-semibold"}>get a gadget 4 ur budget</h2>
+                            <div className={"horiLine col-span-1    "}/>
                             <p className={'col-span-7 text_size leading-loose'} style={{color: "#8d97a2"}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
                         </div>
                         <div className={"veriLine"}/>
                         <div className={"mx-8 py-16"}>
-                            <h2 className={'font_default text_default text-4xl capitalize'}>items in stock</h2>
+                            <h2 className={'text_default font_default text-4xl capitalize font-semibold'}>items in stock</h2>
                             <div className={"flex flex-wrap px-8 py-10"}>
                                 {
                                     items.map((data)=>(
                                         <>
                                             <div className={"width-sub mx-6"}>
                                                 <div className={"items-color flex items-end justify-center"}>
-                                                    <img src={data.image} className={"object-cover w-2/3 h-40`"}/>
+                                                    <img src={data.image} className={"object-cover w-full h-full"}/>
                                                 </div>
-                                                <div className={"flex justify-between my-6 font-bold font_default"}>
+                                                <div className={"flex justify-between my-6 text_default font_default"}>
                                                     <div>{data.name}</div>
                                                     <div>{data.price}</div>
                                                 </div>
@@ -85,7 +85,7 @@ const MainSection  = ()=>{
                 {/* service section  */}
                 <div className={'services w-full relative hidden md:block lg:block xl:block'}>   
                     <div className={'grid grid-cols-2 px-24 text-white py-16 flex items-center'}>
-                        <div className={'text-4xl mx-8 capitalize leading-tight'}>
+                        <div className={'text-4xl mx-8 font_default font-semibold capitalize leading-tight'}>
                            <div>The service</div>
                            <div>we provide</div>  
                         </div>

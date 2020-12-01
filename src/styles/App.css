@@ -44,7 +44,7 @@
 }
 
 .hover_link:hover{
-  transition: 0.4s ease-in-out;
+  transition: 0.8s ease-in-out;
   color: #fff;
   border-color: #fff;
   background: #152445;
