@@ -12,7 +12,7 @@ const Banner = ({title})=>{
                             <div className="py-6 md:py-1 lg:py-1 xl:py-1 z-10">
                                 <div>
                                     <span className="font_default font-mix text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-extrabold">
-                                        Dreams about the <span className="color_default"> Future</span> are
+                                        Dreams about the <span> Future</span> are
                                     </span>
                                 </div>
                                 <div>

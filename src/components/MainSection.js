@@ -11,31 +11,31 @@ const items = [
     }, 
     {
         id: 2, 
-        name: "DAsdasdasd", 
+        name: "Iphone XS MAX", 
         price: "Ghc 99", 
         image: require('../assets/backup.jpg')
     }, 
     {
         id: 3, 
-        name: "DAsdasdasd", 
+        name: "Samsung note 30", 
         price: "Ghc 99", 
         image: require('../assets/image2.jpg')
     },
     {
         id: 4, 
-        name: "DAsdasdasd", 
+        name: "Iwatch", 
         price: "Ghc 99", 
         image: require('../assets/image3.jpg')
     }, 
     {
         id: 5, 
-        name: "DAsdasdasd", 
+        name: "Camera", 
         price: "Ghc 99", 
         image: require('../assets/image4.jpg')
     }, 
     {
         id: 6, 
-        name: "DAsdasdasd", 
+        name: "Nokai 3310", 
         price: "Ghc 99", 
         image: require('../assets/image1.jpg')
     }
