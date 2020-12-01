@@ -9,6 +9,7 @@ import Intro from "../../components/introOverlay";
 import Header from "../../navigation/header";
 import MainSection from "../../components/MainSection";
 import Reviews from "../../components/review";
+import Footer from "../../navigation/footer"
 
 // gsap timeline
 const tl = gsap.timeline(); 
@@ -78,6 +79,7 @@ const Home = () => {
           <>
             <MainSection/>
             <Reviews/>
+            <Footer/>
           </>
         }
     </Fragment>
