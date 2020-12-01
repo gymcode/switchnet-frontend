@@ -56,7 +56,7 @@ const MainSection  = ()=>{
                         <div className={"veriLine"}/>
                         <div className={"mx-8 py-16"}>
                             <h2 className={'font_default text_default text-4xl capitalize'}>items in stock</h2>
-                            <div className={"flex flex-wrap py-10"}>
+                            <div className={"flex flex-wrap px-8 py-10"}>
                                 {
                                     items.map((data)=>(
                                         <>
@@ -83,9 +83,9 @@ const MainSection  = ()=>{
                     </div>
                 </div>
                 {/* service section  */}
-                <div className={'services mb-64 w-full relative hidden md:block lg:block xl:block'}>   
-                    <div className={'grid grid-cols-2 px-40 text-white pt-16 flex items-center'}>
-                        <div className={'text-4xl ml-6 capitalize leading-tight'}>
+                <div className={'services w-full relative hidden md:block lg:block xl:block'}>   
+                    <div className={'grid grid-cols-2 px-24 text-white py-16 flex items-center'}>
+                        <div className={'text-4xl mx-8 capitalize leading-tight'}>
                            <div>The service</div>
                            <div>we provide</div>  
                         </div>
