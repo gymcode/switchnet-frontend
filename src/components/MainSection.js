@@ -5,9 +5,9 @@ import '../styles/main.css'
 const items = [
     {
         id: 1, 
-        name: "Laptop", 
+        name: "Dell Xps 13", 
         price: "Ghc 99", 
-        image: require('../assets/brand.jpg')
+        image: require('../assets/dell_XPS_13_black_and_white_standard_mode.jpg')
     }, 
     {
         id: 2, 
@@ -17,27 +17,27 @@ const items = [
     }, 
     {
         id: 3, 
-        name: "Samsung note 30", 
+        name: "Samsung note 20 Ultra", 
         price: "Ghc 99", 
-        image: require('../assets/image2.jpg')
+        image: require('../assets/SamsungGalaxyS20Ultra__1_.jpg')
     },
     {
         id: 4, 
-        name: "Iwatch", 
+        name: "Apple Macbook Air", 
         price: "Ghc 99", 
-        image: require('../assets/image3.jpg')
+        image: require('../assets/Apple-Macbook-Air-Space-Grey-New-1.jpg')
     }, 
     {
         id: 5, 
-        name: "Camera", 
+        name: "Hp Spectre", 
         price: "Ghc 99", 
-        image: require('../assets/image4.jpg')
+        image: require('../assets/HPSpectrex2-12-c0__1_.jpg')
     }, 
     {
         id: 6, 
-        name: "Nokai 3310", 
+        name: "Camon EOS", 
         price: "Ghc 99", 
-        image: require('../assets/image1.jpg')
+        image: require('../assets/highres-tamron_70-200mm_G2_on_canon_5dsr_1488194528.jpg')
     }
 ]
 
@@ -56,15 +56,15 @@ const MainSection  = ()=>{
                         <div className={"veriLine"}/>
                         <div className={"mx-8 py-16"}>
                             <h2 className={'text_default font_Nunito text-4xl capitalize font-black'}>items in stock</h2>
-                            <div className={"flex flex-wrap px-8 py-10"}>
+                            <div className={"flex flex-wrap px-20 py-10"}>
                                 {
                                     items.map((data)=>(
                                         <>
                                             <div className={"width-sub mx-6"}>
-                                                <div className={"items-color flex items-end justify-center"}>
+                                                <div className={"items-color flex items-end justify-center border"}>
                                                     <img src={data.image} className={"object-cover w-full h-full"}/>
                                                 </div>
-                                                <div className={"flex justify-between my-6 text_default font_default font-semibold text-sizeItem"}>
+                                                <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
                                                     <div>{data.name}</div>
                                                     <div>{data.price}</div>
                                                 </div>
