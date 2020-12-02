@@ -61,7 +61,7 @@ const MainSection  = ()=>{
                                     items.map((data)=>(
                                         <>
                                             <div className={"width-sub mx-6"}>
-                                                <div className={"items-color flex items-end justify-center border"}>
+                                                <div className={"items-color flex items-end justify-center"} style={{borderWidth: 1, borderColor: "#a5f5e2"}}>
                                                     <img src={data.image} className={"object-cover w-full h-full"}/>
                                                 </div>
                                                 <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
@@ -76,7 +76,7 @@ const MainSection  = ()=>{
                             {/* btn  */}
                             <div className={'capitalize text-xs font-bold flex justify-center items-center'}>
                                 <a href="">
-                                    <div className={'hover_link w-40 h-12 border flex justify-center items-center'} style={{borderWidth: 2, borderColor: "#000",}}>see all items</div>
+                                    <div className={'hover_link w-40 h-12 border font_Sans flex justify-center items-center'} style={{borderWidth: 2, borderColor: "#000",}}>and many more...</div>
                                 </a>
                             </div>
                         </div>

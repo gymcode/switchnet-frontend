@@ -36,8 +36,8 @@ const Cases = ()=>{
                             <Fragment key={dataItems.id}>                              
                                 <div className="relative">
                                         <div className="caseDetail p-10 mt-12 xl:mt-32">
-                                            <span className="font_default font-semibold text-xl sm:text-xl md:text-xl lg:text-xl xl:text-2xl">{dataItems.subtitle}</span>
-                                            <h2 className="font_default font-bold text-2xl xl:text-4xl">{dataItems.title}</h2>
+                                            <span className="font_Nunito font-semibold text-xl sm:text-xl md:text-xl lg:text-xl xl:text-2xl">{dataItems.subtitle}</span>
+                                            <h2 className="font_Nunito font-bold text-2xl xl:text-4xl">{dataItems.title}</h2>
                                         </div>
                                         <div className="casesDiv w-full">                                        
                                             <img src={dataItems.img} className="casesImage object-cover" style={{height: "100%"}}/>

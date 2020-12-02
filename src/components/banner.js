@@ -11,7 +11,7 @@ const Banner = ({title})=>{
                         <h2>
                             <div className="py-6 md:py-1 lg:py-1 xl:py-1 z-10">
                                 <div>
-                                    <span className="font_Nunito font-mix text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-black">
+                                    <span className="font_Nunito font-mix text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-black">
                                         Dreams about the Future are
                                     </span>
                                 </div>
