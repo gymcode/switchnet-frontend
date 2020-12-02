@@ -151,13 +151,13 @@
 
 .horiLine{
   height: 100%;
-  background-color: #e8eaee;
+  background-color: #149F82;
   width: 1px;
 }
 
 .veriLine{
   height: 1px;
-  background-color: #c3f7eb;
+  background-color: #149F82;
   width: 100%;
 }
 
