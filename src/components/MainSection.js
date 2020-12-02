@@ -54,6 +54,99 @@ const items = [
 
 
 const MainSection  = ()=>{
+
+    const GetBorder = (id, data)=>{
+        switch (id) {
+            case 1:
+                return (
+                    <Fragment>
+                         <div className={`items-color flex items-end justify-center rounded`} style={{borderBottomWidth:1, borderRightWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                        </div>
+                        <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
+                            <div>{data.name}</div>
+                            <div>{data.price}</div>
+                        </div>
+                    </Fragment>
+                );
+            case 2:
+                return (
+                    <Fragment>
+                         <div className={`items-color flex items-end justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1, borderRightWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                        </div>
+                        <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
+                            <div>{data.name}</div>
+                            <div>{data.price}</div>
+                        </div>
+                    </Fragment>
+                );
+            case 3:
+                return (
+                    <Fragment>
+                         <div className={`items-color flex items-end justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                        </div>
+                        <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
+                            <div>{data.name}</div>
+                            <div>{data.price}</div>
+                        </div>
+                    </Fragment>
+                );
+            case 4:
+                return (
+                    <Fragment>
+                         <div className={`items-color flex items-end justify-center rounded`} style={{borderTopWidth:1, borderRightWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                        </div>
+                        <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
+                            <div>{data.name}</div>
+                            <div>{data.price}</div>
+                        </div>
+                    </Fragment>
+                );
+            case 5:
+                return (
+                    <Fragment>
+                         <div className={`items-color flex items-end justify-center rounded`} style={{borderTopWidth:1, borderLeftWidth: 1, borderRightWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                        </div>
+                        <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
+                            <div>{data.name}</div>
+                            <div>{data.price}</div>
+                        </div>
+                    </Fragment>
+                );
+            case 6:
+                return (
+                    <Fragment>
+                         <div className={`items-color flex items-end justify-center rounded`} style={{borderTopWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                        </div>
+                        <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
+                            <div>{data.name}</div>
+                            <div>{data.price}</div>
+                        </div>
+                    </Fragment>
+                );
+                
+                break;
+        
+            default:
+                return (
+                    <Fragment>
+                         <div className={`items-color flex items-end justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                        </div>
+                        <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
+                            <div>{data.name}</div>
+                            <div>{data.price}</div>
+                        </div>
+                    </Fragment>
+                )
+                break;
+        }
+    }
     
     useEffect(()=>{
         aos.init({duration: 2000})
@@ -77,13 +170,7 @@ const MainSection  = ()=>{
                                     items.map((data)=>(
                                         <>
                                             <div key={data.id} data-aos="fade-up" data-aos-duration={data.duration} className={"width-sub mx-6"}>
-                                                <div className={`items-color flex items-end justify-center rounded`} style={{borderWidth: 1, borderColor: "#149F82"}}>
-                                                    <img src={data.image} className={"object-cover w-full h-full"}/>
-                                                </div>
-                                                <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
-                                                    <div>{data.name}</div>
-                                                    <div>{data.price}</div>
-                                                </div>
+                                                {GetBorder(data.id, data)}
                                             </div>
                                         </>
                                     ))
