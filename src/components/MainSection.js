@@ -19,35 +19,35 @@ const items = [
         id: 2, 
         name: "iPhone 12", 
         price: "Ghc 99", 
-        duration: 1500,
+        duration: 2500,
         image: require('../assets/iphone12.jpg')
     }, 
     {
         id: 3, 
         name: "Samsung note 20 Ultra", 
         price: "Ghc 99", 
-        duration: 2500,
+        duration: 4000,
         image: require('../assets/SamsungGalaxyS20Ultra__1_.jpg')
     },
     {
         id: 4, 
         name: "Apple Macbook Air", 
         price: "Ghc 99", 
-        duration: 3500,
+        duration: 5500,
         image: require('../assets/Apple-Macbook-Air-Space-Grey-New-1.jpg')
     }, 
     {
         id: 5, 
         name: "Hp Spectre", 
         price: "Ghc 99", 
-        duration: 4500,
+        duration: 6000,
         image: require('../assets/HPSpectrex2-12-c0__1_.jpg')
     }, 
     {
         id: 6, 
         name: "Camon EOS", 
         price: "Ghc 99", 
-        duration: 5500,
+        duration: 7500,
         image: require('../assets/highres-tamron_70-200mm_G2_on_canon_5dsr_1488194528.jpg')
     }
 ]
@@ -77,7 +77,7 @@ const MainSection  = ()=>{
                                     items.map((data)=>(
                                         <>
                                             <div data-aos="fade-up" data-aos-duration={data.duration} className={"width-sub mx-6"}>
-                                                <div className={"items-color flex items-end justify-center rounded"} style={{borderWidth: 1, borderColor: "#149F82"}}>
+                                                <div className={`items-color flex items-end justify-center rounded`} style={{borderWidth: 1, borderColor: "#149F82"}}>
                                                     <img src={data.image} className={"object-cover w-full h-full"}/>
                                                 </div>
                                                 <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
@@ -92,7 +92,7 @@ const MainSection  = ()=>{
                             {/* btn  */}
                             <div className={'capitalize text-xs font-bold flex justify-center items-center'}>
                                 <a href="">
-                                    <div className={'hover_link w-40 h-12 border font_Sans flex justify-center items-center'} style={{borderWidth: 2, borderColor: "#149F82"}}>and many more...</div>
+                                    <div data-aos="zoom-out-left" className={'hover_link w-40 h-12 border font_Sans flex justify-center items-center'} style={{borderWidth: 2, borderColor: "#149F82"}}>and many more...</div>
                                 </a>
                             </div>
                         </div>
@@ -101,11 +101,11 @@ const MainSection  = ()=>{
                 {/* service section  */}
                 <div className={'services w-full relative hidden md:block lg:block xl:block'}>   
                     <div className={'grid grid-cols-2 px-24 text-white py-16 flex items-center'}>
-                        <div data-aos="fade-right" className={'text-4xl mx-8 font_Nunito font-black capitalize leading-tight'}>
+                        <div className={'text-4xl mx-8 font_Nunito font-black capitalize leading-tight'}>
                            <div>The service</div>
                            <div>we provide</div>  
                         </div>
-                        <div data-aos="fade-left" className={'text_size leading-loose font_Sans font-bold'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </div>
+                        <div className={'text_size leading-loose font_Sans font-bold'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </div>
                     </div>
                     <div className={"sub-service w-full flex px-40 "}>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderBottomLeftRadius: 30}}>
