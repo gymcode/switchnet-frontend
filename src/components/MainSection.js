@@ -45,7 +45,7 @@ const items = [
     }, 
     {
         id: 6, 
-        name: "Camon EOS", 
+        name: "Canon EOS", 
         price: "Ghc 99", 
         duration: 7500,
         image: require('../assets/highres-tamron_70-200mm_G2_on_canon_5dsr_1488194528.jpg')
@@ -60,8 +60,8 @@ const MainSection  = ()=>{
             case 1:
                 return (
                     <Fragment>
-                         <div className={`items-color flex items-end justify-center rounded`} style={{borderBottomWidth:1, borderRightWidth: 1,borderColor: "#149F82"}}>
-                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                         <div className={`items-color flex items-center justify-center rounded`} style={{borderBottomWidth:1, borderRightWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-2/3 h-48"}/>
                         </div>
                         <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
                             <div>{data.name}</div>
@@ -72,8 +72,8 @@ const MainSection  = ()=>{
             case 2:
                 return (
                     <Fragment>
-                         <div className={`items-color flex items-end justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1, borderRightWidth: 1,borderColor: "#149F82"}}>
-                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                         <div className={`items-color flex items-center justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1, borderRightWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-2/3 h-48"}/>
                         </div>
                         <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
                             <div>{data.name}</div>
@@ -84,8 +84,8 @@ const MainSection  = ()=>{
             case 3:
                 return (
                     <Fragment>
-                         <div className={`items-color flex items-end justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
-                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                         <div className={`items-color flex items-center justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-2/3 h-48"}/>
                         </div>
                         <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
                             <div>{data.name}</div>
@@ -96,8 +96,8 @@ const MainSection  = ()=>{
             case 4:
                 return (
                     <Fragment>
-                         <div className={`items-color flex items-end justify-center rounded`} style={{borderTopWidth:1, borderRightWidth: 1,borderColor: "#149F82"}}>
-                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                         <div className={`items-color flex items-center justify-center rounded`} style={{borderTopWidth:1, borderRightWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-2/3 h-48"}/>
                         </div>
                         <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
                             <div>{data.name}</div>
@@ -108,8 +108,8 @@ const MainSection  = ()=>{
             case 5:
                 return (
                     <Fragment>
-                         <div className={`items-color flex items-end justify-center rounded`} style={{borderTopWidth:1, borderLeftWidth: 1, borderRightWidth: 1,borderColor: "#149F82"}}>
-                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                         <div className={`items-color flex items-center justify-center rounded`} style={{borderTopWidth:1, borderLeftWidth: 1, borderRightWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-2/3 h-48"}/>
                         </div>
                         <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
                             <div>{data.name}</div>
@@ -120,8 +120,8 @@ const MainSection  = ()=>{
             case 6:
                 return (
                     <Fragment>
-                         <div className={`items-color flex items-end justify-center rounded`} style={{borderTopWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
-                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                         <div className={`items-color flex items-center justify-center rounded`} style={{borderTopWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-2/3 h-48"}/>
                         </div>
                         <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
                             <div>{data.name}</div>
@@ -135,8 +135,8 @@ const MainSection  = ()=>{
             default:
                 return (
                     <Fragment>
-                         <div className={`items-color flex items-end justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
-                            <img src={data.image} className={"object-cover w-full h-full"}/>
+                         <div className={`items-color flex items-center justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
+                            <img src={data.image} className={"object-cover w-2/3 h-48"}/>
                         </div>
                         <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
                             <div>{data.name}</div>
