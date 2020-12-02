@@ -76,7 +76,7 @@ const MainSection  = ()=>{
                                 {
                                     items.map((data)=>(
                                         <>
-                                            <div data-aos="fade-up" data-aos-duration={data.duration} className={"width-sub mx-6"}>
+                                            <div key={data.id} data-aos="fade-up" data-aos-duration={data.duration} className={"width-sub mx-6"}>
                                                 <div className={`items-color flex items-end justify-center rounded`} style={{borderWidth: 1, borderColor: "#149F82"}}>
                                                     <img src={data.image} className={"object-cover w-full h-full"}/>
                                                 </div>
