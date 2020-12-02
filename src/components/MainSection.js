@@ -1,6 +1,8 @@
-import React, {Fragment, useMemo} from 'react'
+import React, {Fragment, useEffect} from 'react'
 import '../styles/App.css'
 import '../styles/main.css'
+import aos from 'aos'
+import 'aos/dist/aos.css'
 import {FaNetworkWired} from 'react-icons/fa'
 import {GiAutoRepair} from 'react-icons/gi'
 import {GrDeliver} from 'react-icons/gr'
@@ -10,41 +12,52 @@ const items = [
         id: 1, 
         name: "Dell Xps 13", 
         price: "Ghc 99", 
+        duration: 1000,
         image: require('../assets/dell_XPS_13_black_and_white_standard_mode.jpg')
     }, 
     {
         id: 2, 
         name: "iPhone 12", 
         price: "Ghc 99", 
+        duration: 1500,
         image: require('../assets/iphone12.jpg')
     }, 
     {
         id: 3, 
         name: "Samsung note 20 Ultra", 
         price: "Ghc 99", 
+        duration: 2500,
         image: require('../assets/SamsungGalaxyS20Ultra__1_.jpg')
     },
     {
         id: 4, 
         name: "Apple Macbook Air", 
         price: "Ghc 99", 
+        duration: 3500,
         image: require('../assets/Apple-Macbook-Air-Space-Grey-New-1.jpg')
     }, 
     {
         id: 5, 
         name: "Hp Spectre", 
         price: "Ghc 99", 
+        duration: 4500,
         image: require('../assets/HPSpectrex2-12-c0__1_.jpg')
     }, 
     {
         id: 6, 
         name: "Camon EOS", 
         price: "Ghc 99", 
+        duration: 5500,
         image: require('../assets/highres-tamron_70-200mm_G2_on_canon_5dsr_1488194528.jpg')
     }
 ]
 
+
 const MainSection  = ()=>{
+    
+    useEffect(()=>{
+        aos.init({duration: 2000})
+    },[])
     return (
         <Fragment>
             <div>
@@ -52,18 +65,18 @@ const MainSection  = ()=>{
                 <div className={'px-24 py-12'}>
                     <div className={'hidden md:block lg:block xl:block rounded'}>
                         <div className={"mx-20 py-20 grid grid-cols-12 gap-4"}>
-                            <h2 className={"col-span-4 text_default font_Nunito text-4xl capitalize leading-tight font-black"}>get a gadget 4 ur budget</h2>
+                            <h2 data-aos="fade-right" className={"col-span-4 text_default font_Nunito text-4xl capitalize leading-tight font-black"}>get a gadget 4 ur budget</h2>
                             <div className={"horiLine col-span-1"}/>
-                            <p className={'col-span-7 text_size leading-loose font_Sans font-bold'} style={{color: "#152445"}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <p data-aos="fade-left" className={'col-span-7 text_size leading-loose font_Sans font-bold'} style={{color: "#152445"}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                         </div>
                         <div className={"veriLine"}/>
                         <div className={"mx-8 py-16"}>
-                            <h2 className={'text_default font_Nunito text-4xl capitalize font-black'}>items in stock</h2>
+                            <h2 data-aos="fade-right" className={'text_default font_Nunito text-4xl capitalize font-black'}>items in stock</h2>
                             <div className={"flex flex-wrap px-20 py-10"}>
                                 {
                                     items.map((data)=>(
                                         <>
-                                            <div className={"width-sub mx-6"}>
+                                            <div data-aos="fade-up" data-aos-duration={data.duration} className={"width-sub mx-6"}>
                                                 <div className={"items-color flex items-end justify-center rounded"} style={{borderWidth: 1, borderColor: "#149F82"}}>
                                                     <img src={data.image} className={"object-cover w-full h-full"}/>
                                                 </div>
@@ -88,11 +101,11 @@ const MainSection  = ()=>{
                 {/* service section  */}
                 <div className={'services w-full relative hidden md:block lg:block xl:block'}>   
                     <div className={'grid grid-cols-2 px-24 text-white py-16 flex items-center'}>
-                        <div className={'text-4xl mx-8 font_Nunito font-black capitalize leading-tight'}>
+                        <div data-aos="fade-right" className={'text-4xl mx-8 font_Nunito font-black capitalize leading-tight'}>
                            <div>The service</div>
                            <div>we provide</div>  
                         </div>
-                        <div className={'text_size leading-loose font_Sans font-bold'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </div>
+                        <div data-aos="fade-left" className={'text_size leading-loose font_Sans font-bold'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </div>
                     </div>
                     <div className={"sub-service w-full flex px-40 "}>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderBottomLeftRadius: 30}}>
