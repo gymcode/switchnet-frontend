@@ -1,8 +1,9 @@
 import React, {Fragment, useMemo} from 'react'
 import '../styles/App.css'
 import '../styles/main.css'
-import {AiOutlineTool} from 'react-icons/ai'
 import {FaNetworkWired} from 'react-icons/fa'
+import {GiAutoRepair} from 'react-icons/gi'
+import {GrDeliver} from 'react-icons/gr'
 
 const items = [
     {
@@ -105,7 +106,7 @@ const MainSection  = ()=>{
                         </div>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
                             <div className={"text-center px-10"}>
-                                <AiOutlineTool color={"#149F82"} size={50} className={'flex items-center justify-center w-full'}/>
+                                <GiAutoRepair color={"#149F82"} size={50} className={'flex items-center justify-center w-full'}/>
                                 <div className={'py-6'}>
                                     <h1 className={'text-xl font_Sans font-black capitalize'}>Repairs</h1>
                                     <div className={'text_size leading-loose font_Sans font-bold'} style={{color: "#152445"}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
@@ -114,7 +115,7 @@ const MainSection  = ()=>{
                         </div>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderTopRightRadius: 30}}>
                             <div className={"text-center px-10"}>
-                                <AiOutlineTool size={50} color={"#149F82"} className={'flex items-center justify-center w-full'}/>
+                                <GrDeliver size={50} className={'flex items-center justify-center w-full'}/>
                                 <div className={'py-6'}>
                                     <h1 className={'text-xl font_Sans font-black capitalize'}>Tech Accessories</h1>
                                     <div className={'text_size leading-loose font_Sans font-bold'} style={{color: "#152445"}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
