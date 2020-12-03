@@ -135,7 +135,7 @@ const MainSection  = ()=>{
             default:
                 return (
                     <Fragment>
-                         <div className={`items-color flex items-center justify-center rounded`} style={{borderBottomWidth:1, borderLeftWidth: 1,borderColor: "#149F82"}}>
+                         <div className={`items-color flex items-center justify-center rounded`} style={{borderBottomWidth:1,borderColor: "#149F82"}}>
                             <img src={data.image} className={"object-cover w-2/3 h-48"}/>
                         </div>
                         <div className={"flex justify-between my-6 text_default font_Sans font-black text-sizeItem"}>
