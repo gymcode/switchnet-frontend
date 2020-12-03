@@ -5,7 +5,7 @@ import aos from 'aos'
 import 'aos/dist/aos.css'
 import {FaNetworkWired} from 'react-icons/fa'
 import {GiAutoRepair} from 'react-icons/gi'
-import {GrDeliver} from 'react-icons/gr'
+import {FaHandsHelping} from 'react-icons/fa'
 
 const items = [
     {
@@ -215,9 +215,9 @@ const MainSection  = ()=>{
                         </div>
                         <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderTopRightRadius: 30}}>
                             <div className={"text-center px-10"}>
-                                <GrDeliver size={50} className={'flex items-center justify-center w-full'}/>
+                                <FaHandsHelping size={50} color={"#149F82"}  className={'flex items-center justify-center w-full'}/>
                                 <div className={'py-6'}>
-                                    <h1 className={'text-xl font_Sans font-black capitalize'}>Tech Accessories</h1>
+                                    <h1 className={'text-xl font_Sans font-black capitalize'}>We help</h1>
                                     <div className={'text_size leading-loose font_Sans font-bold'} style={{color: "#152445"}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</div>
                                 </div>
                             </div>  
