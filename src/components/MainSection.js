@@ -188,14 +188,14 @@ const MainSection  = ()=>{
                 {/* service section  */}
                 <div className={'services w-full relative hidden md:block lg:block xl:block'}>   
                     <div className={'grid grid-cols-2 px-24 text-white py-16 flex items-center'}>
-                        <div className={'text-4xl mx-8 font_Nunito font-black capitalize leading-tight'}>
+                        <div data-aos="fade-right" className={'text-4xl mx-8 font_Nunito font-black capitalize leading-tight'}>
                            <div>The service</div>
                            <div>we provide</div>  
                         </div>
-                        <div className={'text_size leading-loose font_Sans font-bold'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </div>
+                        <p className={'text_size leading-loose font_Sans font-bold'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
                     </div>
                     <div className={"sub-service w-full flex px-40 "}>
-                        <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderBottomLeftRadius: 30}}>
+                        <div  data-aos="fade-up" data-aos-duration="1000" className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderBottomLeftRadius: 30}}>
                             <div className={"text-center px-10"}>
                                 <FaNetworkWired size={40} color={"#149F82"}  className={'flex items-center justify-center w-full'}/>
                                 <div className={'py-6'}>
@@ -204,7 +204,7 @@ const MainSection  = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
+                        <div data-aos="fade-up" data-aos-duration="2000" className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"}>
                             <div className={"text-center px-10"}>
                                 <GiAutoRepair color={"#149F82"} size={50} className={'flex items-center justify-center w-full'}/>
                                 <div className={'py-6'}>
@@ -213,7 +213,7 @@ const MainSection  = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderTopRightRadius: 30}}>
+                        <div data-aos="fade-up" data-aos-duration="3000" className={"bg-white mx-6 w-1/2 shadow-xl flex items-center justify-center"} style={{borderTopRightRadius: 30}}>
                             <div className={"text-center px-10"}>
                                 <FaHandsHelping size={50} color={"#149F82"}  className={'flex items-center justify-center w-full'}/>
                                 <div className={'py-6'}>
