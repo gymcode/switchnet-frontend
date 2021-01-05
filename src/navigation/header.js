@@ -12,13 +12,13 @@ const Header = ()=>{
                         <div className="logo">
                             <a href="/" className="text-2xl tracking-wider text-black no-underline font-bold">SwitchNet</a>
                         </div>
-                        <div className="nav-toggle"> 
-                            <div>
+                        <div className="nav-toggle cursor-pointer relative flex justify-center items-center"> 
+                            <div className={'humburger-menu'}>
                                 <span><WiWindy size={55} color="#149F82" /></span>
                                 <span></span>
                             </div>
-                            <div>
-                                
+                            <div className={'humburger-menu-close absolute hidden'}>
+                                <UpArrow/>
                             </div>
                         </div>
                     </div>
