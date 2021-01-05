@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react'
 import {WiWindy} from 'react-icons/wi'
+import {ReactComponent as UpArrow} from "../assets/up-arrow-circle.svg"
 import '../styles/main.css'
 
 const Header = ()=>{
@@ -11,9 +12,14 @@ const Header = ()=>{
                         <div className="logo">
                             <a href="/" className="text-2xl tracking-wider text-black no-underline font-bold">SwitchNet</a>
                         </div>
-                        <div className="nav"> 
-                            <span><WiWindy size={55} color="#149F82" /></span>
-                            <span></span>
+                        <div className="nav-toggle"> 
+                            <div>
+                                <span><WiWindy size={55} color="#149F82" /></span>
+                                <span></span>
+                            </div>
+                            <div>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
