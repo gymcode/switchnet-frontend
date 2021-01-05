@@ -1,9 +1,19 @@
-import React, {Fragment} from 'react'
+import React, {Fragment, useEffect, useState} from 'react'
 import {WiWindy} from 'react-icons/wi'
 import {ReactComponent as UpArrow} from "../assets/up-arrow-circle.svg"
 import '../styles/main.css'
 
 const Header = ()=>{
+
+    const [menuState, setMenuState] = useState({menuOpened: false})
+
+    useEffect(()=>{
+        if (menuState.menuOpened === true) {
+            
+        } else {
+            
+        }
+    }, [])
     return(
         <Fragment>
             <div className="w-full z-4 nav">
