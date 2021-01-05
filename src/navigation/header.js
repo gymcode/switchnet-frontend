@@ -9,11 +9,11 @@ const Header = ()=>{
 
     useEffect(()=>{
         if (menuState.menuOpened === true) {
-            
+            // TODO Run open menu animation
         } else {
-            
+            // TODO Run close menu animation
         }
-    }, [])
+    }, [menuState.menuOpened])
     return(
         <Fragment>
             <div className="w-full z-4 nav">
@@ -23,11 +23,11 @@ const Header = ()=>{
                             <a href="/" className="text-2xl tracking-wider text-black no-underline font-bold">SwitchNet</a>
                         </div>
                         <div className="nav-toggle cursor-pointer relative flex justify-center items-center"> 
-                            <div className={'humburger-menu'}>
+                            <div onClick={()=> setMenuState({menuOpened: true})} className={'humburger-menu'}>
                                 <span><WiWindy size={55} color="#149F82" /></span>
                                 <span></span>
                             </div>
-                            <div className={'humburger-menu-close absolute hidden'}>
+                            <div onClick={()=> setMenuState({menuOpened: false})} className={'humburger-menu-close absolute hidden'}>
                                 <UpArrow/>
                             </div>
                         </div>
