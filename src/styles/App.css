@@ -35,7 +35,7 @@
 }
 
 /* ********* navigation ********* */
-nav {
+.nav {
   left: 0;
   top: -1px;
   width: 100%;
@@ -46,6 +46,11 @@ nav {
   overflow: hidden;
   background: red;
 }
+
+.a {
+  position: relative;
+}
+
 
 /* ************** banner js *************** */
 
