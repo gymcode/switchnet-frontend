@@ -2,19 +2,9 @@ import React, {Fragment, useEffect, useState} from 'react'
 import {WiWindy} from 'react-icons/wi'
 import {ReactComponent as UpArrow} from "../assets/up-arrow-circle.svg"
 import '../styles/main.css'
-imp
 
 const Header = ()=>{
 
-    const [menuState, setMenuState] = useState({menuOpened: false})
-
-    useEffect(()=>{
-        if (menuState.menuOpened === true) {
-            // TODO Run open menu animation
-        } else {
-            // TODO Run close menu animation
-        }
-    }, [menuState.menuOpened])
     return(
         <Fragment>
             <div className="w-full z-4 nav">
@@ -24,11 +14,11 @@ const Header = ()=>{
                             <a href="/" className="text-2xl tracking-wider text-black no-underline font-bold">SwitchNet</a>
                         </div>
                         <div className="nav-toggle cursor-pointer relative flex justify-center items-center"> 
-                            <div onClick={()=> setMenuState({menuOpened: true})} className={'humburger-menu'}>
+                            <div className={'humburger-menu'}>
                                 <span><WiWindy size={55} color="#149F82" /></span>
                                 <span></span>
                             </div>
-                            <div onClick={()=> setMenuState({menuOpened: false})} className={'humburger-menu-close absolute hidden'}>
+                            <div className={'humburger-menu-close absolute hidden'}>
                                 <UpArrow/>
                             </div>
                         </div>
