@@ -34,6 +34,11 @@
   font-size: 0.85rem;
 }
 
+/* ********* Default css attributes ********* */
+li{
+  padding: 14px;
+  display: inline-block;
+}
 
 /* ************** banner js *************** */
 

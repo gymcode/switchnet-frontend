@@ -1,5 +1,5 @@
 import React, {Fragment, useEffect, useState} from 'react'
-import {FcAbout} from 'react-icons/fi'
+import {DiJqueryLogo} from 'react-icons/di'
 import {ReactComponent as UpArrow} from "../assets/up-arrow-circle.svg"
 import {Link} from 'react-router-dom'
 import '../styles/main.css'
@@ -14,18 +14,21 @@ const Header = ()=>{
                         <div className="logo">
                             <a href="/" className="text-2xl tracking-wider text-black no-underline font-bold">SwitchNet</a>
                         </div>
-                        <div className="nav-toggle cursor-pointer relative pr-8 flex justify-center items-center"> 
-                            <div>
-                                <Link to={"/services"}>Services</Link>
+                        <div className="cursor-pointer relative pr-8 flex justify-center items-center"> 
+                            <div className={"nav-inline"}>
+                                <li>
+                                    <Link to={"/services"}>Services</Link>
+                                </li>
+                                <li>
+                                    <Link to={"/stock"}>Stock</Link>
+                                </li>
+                                <li>
+                                    <Link to={"/contact"}>Contact</Link>
+                                </li>                            
                             </div>
-                            <div>
-                                <Link to={"/stock"}>Stock</Link>
-                            </div>
-                            <div>
-                                <Link to={"/contact"}>Contact</Link>
-                            </div>                            
-                            <div className={'humburger-menu'}>
-                                <span><FcAbout size={55} color="#149F82" /></span>
+                            <div className={'pl-24 flex justify-center items-center'}>
+                                <span><DiJqueryLogo size={30} color="#149F82" /></span>
+                                <span className={""}>why switchnet</span>
                             </div>
                         </div>
                     </div>
