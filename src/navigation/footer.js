@@ -6,7 +6,7 @@ const Footer = ()=>{
     return(
         <Fragment>
             <div className={'footer'}>
-
+                sadadaldadandadladlksadnalskdaldanlda
             </div>
         </Fragment>
     )
