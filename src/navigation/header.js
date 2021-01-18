@@ -14,8 +14,11 @@ const Header = ()=>{
                         <div className="logo">
                             <a href="/" className="text-2xl tracking-wider text-black no-underline font-bold">SwitchNet</a>
                         </div>
-                        <div className="cursor-pointer relative pr-8 flex justify-center items-center"> 
+                        <div className="cursor-pointer relative pr-8 flex justify-end items-center"> 
                             <div className={"nav-inline"}>
+                                <li>
+                                    <Link to={"/"}>Home</Link>
+                                </li>
                                 <li>
                                     <Link to={"/services"}>Services</Link>
                                 </li>
@@ -27,8 +30,8 @@ const Header = ()=>{
                                 </li>                            
                             </div>
                             <div className={'pl-24 flex justify-center items-center'}>
-                                <span><DiJqueryLogo size={30} color="#149F82" /></span>
-                                <span className={""}>why switchnet</span>
+                                <span><DiJqueryLogo size={22} color="#149F82" /></span>
+                                <span className={"text-xs font-semibold pr-4"} style={{color: "#149F82"}}>why switchnet</span>
                             </div>
                         </div>
                     </div>
