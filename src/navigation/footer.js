@@ -27,9 +27,10 @@ const Footer = ()=>{
                     <div className={""}>switchnet</div>
                     <p>&copy; switchnet_solution.com</p>
                </div> */}
-               <div>
-                    <p>switchnet solutions</p>
-                    <div></div>
+               <div className={"h-40 flex flex-col justify-center items-center"}>
+                    <p className={"text-md"}>switchnet solutions</p> 
+                    
+                    <div className={"text-4xl"}>Gadget for your budget</div>
                </div>
                <div>
 
