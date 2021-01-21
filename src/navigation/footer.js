@@ -11,7 +11,7 @@ const Footer = ()=>{
                     <div>switchnet</div>
                     <div className={'text-xs flex justify-center items-center'}>
                         <p className={"px-3"}>return to top</p>
-                        <div><BsBoxArrowInUp/></div>
+                        <div><BsBoxArrowInUp size={20}/></div>
                     </div>
                </div>   
                <hr/>
@@ -23,7 +23,7 @@ const Footer = ()=>{
                </nav>
                <hr/>
 
-               <div className={"px-8 leading-loose"}>
+               <div className={"px-8 py-4 leading-tight "}>
                     <div className={""}>switchnet</div>
                     <p>&copy; switchnet_solution.com</p>
                </div>
