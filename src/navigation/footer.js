@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react'
 import "../styles/main.css"
 import "../styles/App.css"
+import {BsBoxArrowInUp} from 'react-icons/bs'
 
 const Footer = ()=>{
     return(
@@ -9,8 +10,8 @@ const Footer = ()=>{
                <div className={"flex justify-between p-2 px-8"}>
                     <div>switchnet</div>
                     <div className={'text-xs flex justify-center items-center'}>
-                        <p>return to top</p>
-                        <div><img src={require('../assets/up-arrow-circle.svg')} className={"h-10 w-10"}/></div>
+                        <p className={"px-3"}>return to top</p>
+                        <div><BsBoxArrowInUp/></div>
                     </div>
                </div>   
                <hr/>
