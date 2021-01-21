@@ -5,17 +5,12 @@ import "../styles/App.css"
 const Footer = ()=>{
     return(
         <Fragment>
-            <div className={'footer px-32 py-20 text-white'}>
-                <div classname={"flex justify-between items-center w-full"}>
-                    <div>Switchnet</div>
-                    <div className={"text-xs"}>return to top</div>
-                </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
+            <div className={'footer px-32 py-16 text-white'}>
+               <div className={"flex justify-between p-4 px-10"}>
+                    <div>switchnet</div>
+                    <div className={'text-xs'}>return to top</div>
+               </div>   
+               <hr/>
             </div>
         </Fragment>
     )
