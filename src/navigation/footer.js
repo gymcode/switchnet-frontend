@@ -7,33 +7,20 @@ const Footer = ()=>{
     return(
         <Fragment>
             <div className={'footer px-32 py-10 text-white'}>
-               {/* <div className={"flex justify-between p-2 px-8"}>
-                    <div>switchnet</div>
-                    <div className={'text-xs flex justify-center items-center'}>
-                        <p className={"px-3"}>return to top</p>
-                        <div><BsBoxArrowInUp size={20}/></div>
-                    </div>
-               </div>   
-               <hr/>
-               
-               <nav className={"p-8"}>
-                    <div>About</div> 
-                    <div className={"pt-6"}>Contact</div> 
-                    <div className={"pt-6"}>Connect</div> 
-               </nav>
-               <hr/>
-
-               <div className={"px-8 py-4 leading-tight "}>
-                    <div className={""}>switchnet</div>
-                    <p>&copy; switchnet_solution.com</p>
-               </div> */}
-               <div className={"h-40 flex flex-col justify-center items-center"}>
+              
+               <div className={"h-64 flex flex-col justify-center items-center"}>
                     <p className={"text-md"}>switchnet solutions</p> 
                     
                     <div className={"text-4xl"}>Gadget for your budget</div>
                </div>
-               <div>
+               <div className={"flex justify-evenly items-center p-8"}>
+                    <div>
 
+                    </div>
+                    <div></div>
+                    <div>
+                        <p>&copy; switchnet_solution.com</p>
+                    </div>
                </div>
             </div>
         </Fragment>
