@@ -8,8 +8,9 @@ const Footer = ()=>{
             <div className={'footer px-32 py-10 text-white'}>
                <div className={"flex justify-between p-2 px-8"}>
                     <div>switchnet</div>
-                    <div className={'text-xs'}>
-                        
+                    <div className={'text-xs flex justify-center items-center'}>
+                        <p>return to top</p>
+                        <div><img src={require('../assets/up-arrow-circle.svg')} className={"h-10 w-10"}/></div>
                     </div>
                </div>   
                <hr/>
