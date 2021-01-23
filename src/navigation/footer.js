@@ -13,12 +13,12 @@ const Footer = ()=>{
         <Fragment>
             <div className={'footer px-20 text-white'}>
               
-               <div className={"h-56 flex flex-col justify-center items-center"}>
+               <div className={"h-64 flex flex-col justify-center items-center"}>
                     <p className={"text-sm font_Sans color_default font-bold uppercase tracking-widest "}>switchnet solutions</p> 
                     
                     <div className={"text-5xl text-white font-bold font_Nunito"}>Gadget for your budget</div>
                </div>
-               <div className={"flex justify-evenly text-sm items-center py-8"}>
+               <div className={"flex justify-evenly text-sm items-center"}>
                     <div className={"flex flex-row font_Sans"}>
                         <div className={"px-4"} style={{color: "#c5c5c5"}}>Terms</div>
                         <div className={"px-4"} style={{color: "#c5c5c5"}}>Privacy</div>
