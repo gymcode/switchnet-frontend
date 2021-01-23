@@ -19,10 +19,9 @@ const Banner = ({title})=>{
                                     <span className="font_Nunito font-mix text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-black">always filled with gadgets</span>
                                 </div>
                             </div>
-                            <div className="font_Sans py-2 font-semibold text-md sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl ">
-                                <a href="">
-                                    More about us <BsArrowRightShort className="hover_link" size={40} style={{borderRadius: "50px", borderWidth: 2, borderColor: "#000",}}/>
-                                </a>
+                            <div className="font_Sans py-2 font-semibold text-md sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl flex items-center">                                
+                                <div>More about us</div> 
+                                <div className={"px-5"}><BsArrowRightShort className="hover_link" size={30} style={{borderRadius: "50px", borderWidth: 2, borderColor: "#000"}}/></div>
                             </div>
                         </h2>
                     </div>
