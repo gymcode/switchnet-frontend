@@ -14,7 +14,7 @@ const Footer = ()=>{
             <div className={'footer px-20 text-white'}>
               
                <div className={"h-64 flex flex-col justify-center items-center"}>
-                    <p className={"text-sm font_Sans color_default font-bold uppercase tracking-widest "}>switchnet solutions</p> 
+                    <p className={"text-sm font_cursive color_default font-bold uppercase tracking-widest "}>switchnet solutions</p> 
                     
                     <div className={"text-5xl text-white font-bold font_Nunito"}>Gadget for your budget</div>
                </div>

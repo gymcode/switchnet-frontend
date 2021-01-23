@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 /* ********* Default css attributes ********* */
 
@@ -16,6 +17,10 @@
 
 .font_Sans{
   font-family: 'Raleway', sans-serif;
+}
+
+.font_cursive{
+  font-family: 'Dancing Script', cursive;
 }
 
 .color_default{
