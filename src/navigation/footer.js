@@ -14,7 +14,7 @@ const Footer = ()=>{
             <div className={'footer px-20 text-white'}>
               
                <div className={"h-64 flex flex-col justify-center items-center"}>
-                    <p className={"text-sm font_cursive color_default font-bold uppercase tracking-widest "}>switchnet solutions</p> 
+                    <p className={"text-2xl font_dancing color_default font-semibold uppercase tracking-widest "}>switchnet solutions</p> 
                     
                     <div className={"text-5xl text-white font-bold font_Nunito"}>Gadget for your budget</div>
                </div>
@@ -32,7 +32,7 @@ const Footer = ()=>{
                         <div className={"px-4"}><IoLogoInstagram size={20} color={"#c5c5c5"}/></div>
                     </div>
                     <div className={"font_Sans"}>
-                        <p style={{color: "#c5c5c5"}}>&copy; 2016 switchnet solution. all rights reserved</p>
+                        <p style={{color: "#c5c5c5"}}>&copy; 2016 <span className={"font_dancing color_default"}> switchnet solution. </span> All rights reserved</p>
                     </div>
                </div>
             </div>

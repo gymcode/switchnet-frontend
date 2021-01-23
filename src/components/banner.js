@@ -11,12 +11,12 @@ const Banner = ({title})=>{
                         <h2>
                             <div className="py-6 md:py-1 lg:py-1 xl:py-1 z-10">
                                 <div>
-                                    <span className="font_Nunito font-mix text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-black">
+                                    <span className="font_Nunito font-mix text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-medium">
                                         Dreams about the Future are
                                     </span>
                                 </div>
                                 <div>
-                                    <span className="font_Nunito font-mix text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-black">always filled with gadgets</span>
+                                    <span className="font_Nunito font-mix text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-medium">always filled with gadgets</span>
                                 </div>
                             </div>
                             <div className="font_Sans py-2 font-semibold text-md sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl flex items-center">                                

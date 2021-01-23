@@ -179,7 +179,7 @@ const MainSection  = ()=>{
                             {/* btn  */}
                             <div className={'capitalize text-xs font-bold flex justify-center items-center'}>
                                 <a href="">
-                                    <div data-aos="zoom-out-left" className={'hover_link w-40 h-12 border font_Sans flex justify-center items-center'} style={{borderWidth: 2, borderColor: "#149F82"}}>and many more...</div>
+                                    <div data-aos="zoom-out-left" className={'hover_link w-40 h-12 border font_dancing text-base flex justify-center items-center'} style={{borderWidth: 2, borderColor: "#149F82"}}>and many more...</div>
                                 </a>
                             </div>
                         </div>
