@@ -13,7 +13,7 @@ const Header = ()=>{
                     <div className="flex justify-between items-center">
                         <div className="logo">
                             <a href="/" className="text-2xl outline-none tracking-wider text-black no-underline font-bold">
-                                <img src={""}/>
+                                <img className={"h-12"} src={require('../assets/Capture.PNG')}/>
                             </a>
                         </div>
                         <div className="cursor-pointer relative pr-8 flex justify-end items-center"> 
@@ -32,8 +32,8 @@ const Header = ()=>{
                                 </li>                            
                             </div>
                             <div className={'pl-24 flex justify-center items-center outline-none'}>
-                                <span><DiJqueryLogo size={22} color="#149F82" /></span>
-                                <span className={"text-xs font_Sans font-bold pr-4"} style={{color: "#149F82"}}>why switchnet</span>
+                                <span><DiJqueryLogo size={22} color="#2f9554" /></span>
+                                <span className={"text-xs font_Sans font-bold pr-4 color_default"}>why switchnet</span>
                             </div>
                         </div>
                     </div>
