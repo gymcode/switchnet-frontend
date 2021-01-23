@@ -1,8 +1,10 @@
 import React, {Fragment} from 'react'
 import "../styles/main.css"
 import "../styles/App.css"
-import {BsBoxArrowInUp} from 'react-icons/bs'
-import {TiSocialLinkedinCircular} from "react-icons/ti"
+import {IoLogoInstagram} from 'react-icons/io'
+import {RiFacebookCircleLine} from "react-icons/ri"
+import {TiMail} from "react-icons/ti"
+
 
 const Footer = ()=>{
     return(
@@ -22,9 +24,9 @@ const Footer = ()=>{
                         <div className={"px-4"}>Contact</div>
                     </div>
                     <div className={"font_Sans flex flex-row"}>
-                        <div className={"px-4"}><TiSocialLinkedinCircular/></div>
-                        <div className={"px-4"}>Privacy</div>
-                        <div className={"px-4"}>Services</div>
+                        <div className={"px-4"}><RiFacebookCircleLine/></div>
+                        <div className={"px-4"}><TiMail/></div>
+                        <div className={"px-4"}><IoLogoInstagram/></div>
                     </div>
                     <div className={"font_Sans"}>
                         <p>&copy; 2016 switchnet solution. all rights reserved</p>
