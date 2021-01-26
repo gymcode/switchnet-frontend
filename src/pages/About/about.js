@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Header from "../../navigation/header";
-import Footer from "@src/navigation/footer"
+import Footer from "../../navigation/footer"
 
 
 const About  = () => {
