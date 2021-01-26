@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Header from "../../navigation/header";
+import Footer from "@src/navigation/footer"
 
 
 const About  = () => {
@@ -9,6 +10,8 @@ const About  = () => {
             <div>
                 Aboutmdfnsdfnskdnfsjdkf.asdfasdf
             </div>
+
+            <Footer/>
         </Fragment>
     )
 }
