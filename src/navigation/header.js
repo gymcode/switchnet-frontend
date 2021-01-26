@@ -31,10 +31,12 @@ const Header = ()=>{
                                     <Link to={"/contact"}>Contact</Link>
                                 </li>                            
                             </div>
-                            <div className={'pl-24 flex justify-center items-center outline-none'}>
-                                <span><DiJqueryLogo size={22} color="#2f9554" /></span>
-                                <span className={"text-sm font_dancing font-bold pr-4 color_default"}>why switchnet</span>
-                            </div>
+                            <Link to={"/about"}>
+                                <div className={'pl-24 flex justify-center items-center outline-none'}>
+                                    <span><DiJqueryLogo size={22} color="#2f9554" /></span>
+                                    <span className={"text-sm font_dancing font-bold pr-4 color_default"}>why switchnet</span>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
