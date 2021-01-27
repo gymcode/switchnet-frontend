@@ -7,7 +7,7 @@ const Stock = () => {
   return (
     <Fragment>
       <Header/>
-      <div>Stodfsdfsdck</div>
+      <div>Stodfsdfsdck upafte</div>
     </Fragment>
   );
 };
